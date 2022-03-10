@@ -10,10 +10,10 @@ import {Directory} from './directory';
 class AppComponent {
     directories: Array;
     constructor() {
-        let fall2014 = new Directory('Developer1',[],['Student','Student']);
-        let summer2014 = new Directory('Developer2',[],['Student']);
-        let pics = new Directory('Leader',[Developer1, Developer2],[]);
-        this.directories = [pics];
+        let dev1 = new Directory('Developer1',[],['Student','Student']);
+        let dev2 = new Directory('Developer2',[],['Student']);
+        let lead = new Directory('Leader',[dev1, dev2],[]);
+        this.directories = [lead];
     }
 }
 bootstrap(MyDemoApp);
