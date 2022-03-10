@@ -7,7 +7,7 @@ import {Directory} from './directory';
     selector: 'tree',
     template: '<tree-view [directories]="directories"></tree-view>'
 })
-class AppComponen {
+class AppComponent {
     directories: Array;
     constructor() {
         let fall2014 = new Directory('Developer1',[],['Student','Student']);
